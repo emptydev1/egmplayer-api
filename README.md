@@ -1,1 +1,1 @@
-# PixeL Bot
+# EGM Player

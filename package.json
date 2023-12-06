@@ -1,47 +1,42 @@
 {
-	"name": "EGMPlayer",
-	"version": "1.3.0",
-	"description": "A free movie and channel app to watch and spend time with family and friends.",
-	"type": "commonjs",
-	"main": "dist/index.js",
-	"repository": "https://github.com/egmplayer/egmplayer-api",
-	"bugs": {
-		"url": "https://github.com/egmplayer/egmplayer-api/issues"
-	},
-	"homepage": "https://github.com/egmplayer/egmplayer-api#README",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "node ."
-	},
-	"keywords": [
-		"EGMPlayer",
-		"movies",
-		"channels",
-		"watch",
-		"entertainment"
-	],
-	"contributors": [
-		"emptydev1",
-		"ghostzinn07"
-	],
-	"license": "MIT",
-	"engines": {
-		"node": ">=16.7.0",
-		"npm": ">=6.0.0"
-	},
-	"dependencies": {
-		"@types/node": "^18.0.6",
+  "name": "EGMPlayer",
+  "version": "1.3.0",
+  "description": "A free movie and channel app to watch and spend time with family and friends.",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "repository": "https://github.com/egmplayer/egmplayer-api",
+  "bugs": { "url": "https://github.com/egmplayer/egmplayer-api/issues" },
+  "homepage": "https://github.com/egmplayer/egmplayer-api#README",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "keywords": [
+    "EGMPlayer",
+    "movies",
+    "channels",
+    "watch",
+    "entertainment"
+  ],
+  "contributors": [ "emptydev1", "ghostzinn07" ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.7.0",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "@types/node": "^18.0.6",
     "better-sqlite3": "^8.5.0",
     "fastify": "^4.24.3",
     "@fastify/formbody": "^7.4.0",
     "@fastify/sensible": "^5.5.0",
     "@fastify/static": "^6.12.0",
     "@fastify/url-data": "^5.4.0",
-		"lodash": "^4.17.21",
-		"string-similarity": "^4.0.4",
-		"undici": "^5.27.2",
+    "lodash": "^4.17.21",
+    "string-similarity": "^4.0.4",
+    "undici": "^5.27.2",
     "cheerio": "^1.0.0-rc.12",
     "lodash": "^4.17.21",
     "dotenv": "^16.3.1"
-	}
+  }
 }

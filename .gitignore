@@ -1,5 +1,8 @@
+squarecloud.config
 .env
 node_modules
 databases
-package-lock.json
-dist/*
+versions
+dist/routes/api/*
+dist/routes/html/*
+dist/public/*
